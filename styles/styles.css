@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Hanken Grotesk", sans-serif;
 }
 
 
@@ -55,7 +56,7 @@ body{
 .about{
     display: flex;
     justify-content: space-around;
-    gap: 150px;
+    gap: 70px;
     height: 100vh;
     
 
@@ -64,15 +65,78 @@ body{
 .menu-sobre{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    width: 40vw;
-    border: 1px solid black;
+    justify-content: center;
+    width: 42vw;
 }
+
+.menu-sobre>p{
+    text-align: justify;
+    width: 500px;
+}
+
+
+
 
 .menu-img{
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    width: 42vw;;
+
+}
+
+.menu-img > img{
+    width: 500px;
+    height: 450px;
+    border-radius: 100%;
+    text-align: center;
+}
+
+.validation-results{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+
+
+}
+
+.image-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     width: 40vw;
-    border: 1px solid black
+    gap: 35px;
+
+}
+
+.validation-info{
+    width: 40vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+
+}
+
+.text-upload-info>p{
+    font-size: 20px;
+}
+
+
+#label-container{
+    padding-top: 30px;
+}
+
+
+#imagePreview{
+    width: 340px;
+    height: 340px;
+    background-color: #F4F1EB;
+}
+
+.minha-classe>div{
+    color: red;
 }
