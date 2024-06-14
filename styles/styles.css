@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-color:#F4F1EB;
+    
+}
+
+
+
+
+
+
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh
+}
+
+.title>h1{
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: 40px;
+    text-align: center;
+}
+
+.title>p{
+    font-family: "Hanken Grotesk", sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container>.imagePreview{
+    height: 250px; 
+    width: 250px;
+}
+
+
+
+.about{
+    display: flex;
+    justify-content: space-around;
+    gap: 150px;
+    height: 100vh;
+    
+
+}
+
+.menu-sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    border: 1px solid black;
+}
+
+.menu-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 40vw;
+    border: 1px solid black
+}
