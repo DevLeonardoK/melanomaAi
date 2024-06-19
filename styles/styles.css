@@ -119,4 +119,5 @@ body {
 .minha-classe > div {
   color: #000;
   font-weight: bolder;
+  width: 400px;
 }
