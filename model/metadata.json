@@ -3,16 +3,9 @@
   "tmVersion": "2.4.7",
   "packageVersion": "0.8.4-alpha2",
   "packageName": "@teachablemachine/image",
-  "timeStamp": "2024-06-19T01:30:14.251Z",
+  "timeStamp": "2024-06-21T16:50:00.329Z",
   "userMetadata": {},
   "modelName": "tm-my-image-model",
-  "labels": [
-    "Imagens fora de contexto",
-    "Melanoma lentiginoso",
-    "Melanoma nodular",
-    "Melanoma ocular",
-    "Cicatriz",
-    "Dermatite"
-  ],
+  "labels": ["Imagens Fora de Contexto", "Melanoma Extensivo Superficial"],
   "imageSize": 224
 }
